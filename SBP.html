@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shree Balaji Polymers</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+}
+
+/* Header */
+/* Header */
+header {
+    position: relative;
+    text-align: center;
+    padding: 30px 20px 10px 20px;
+    background: 
+        linear-gradient(rgba(11,60,145,0.6), rgba(11,60,145,0.8)),
+        url('texture.png') repeat,
+        url('header-bg.jpg') no-repeat center center/cover;
+}
+
+header img {
+    height: 150px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+header h1,
+header p {
+    color: #0d1b3c;  /* dark color for header text */
+    margin: 5px 0;   /* reduce space around text */
+}
+
+/* Navigation */
+nav {
+    background: #0b3c91;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 20px 20px;             /* reduced padding */
+    margin: 5px 20px 10px 20px;     /* tighter top/bottom margin */
+}
+
+/* About Us and Products spacing */
+#about {
+    margin-bottom: 10px;  /* tighter space below About Us */
+}
+
+#products {
+    padding-top: 15px;    /* reduced space above Products section */
+}
+
+/* Headings */
+h2 {
+    color: #0d47a1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* Paragraphs */
+section p {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+/* Products grid */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Lists */
+ul li {
+    margin: 5px 0; /* tighter spacing */
+}
+
+/* WhatsApp button */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0d47a1;
+    color: white;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #0d47a1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #08306b;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <img src="sbp_logo.svg" alt="Shree Balaji Polymers Logo">
+    <h1>Shree Balaji Polymers</h1>
+    <p>High Quality PP Lupms & Grinding </p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+	<a href="#bulk">Bulk Supply</a>
+    <a href="#contact">Contact</a>
+    
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Shree Balaji Polymers is a trusted manufacturer of PP raffia lumps and grinding materials,
+        based in Kundli, Haryana. We specialize in producing high-quality recycled polymer products
+        that meet the needs of various industrial applications like vegetable & fruit crates, pallets, etc. 
+    </p>
+    <p>
+        With a strong focus on quality, consistency, and timely delivery, we have built a reputation
+        as a reliable partner for businesses looking for cost-effective and durable raw materials.
+        Our manufacturing process ensures proper sorting, cleaning, and processing to deliver
+        superior-grade products.
+    </p>
+</section>
+
+<section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+        <div class="card">
+            <div style="width:100%; height:300px; overflow: hidden; border-radius: 10px; background: #f5f5f5; position: relative;">
+                <img src="A.jpeg" alt="PP Lumps" 
+                     style="width:100%; height: 315px; object-fit: cover; position: absolute; top: -7.5px; left: 0;">
+            </div>
+            <h3>PP Lumps</h3>
+            <p>High-quality polypropylene lumps suitable for various industrial recycling and manufacturing applications.</p>
+        </div>
+        <div class="card">
+            <div style="width:100%; height:300px; overflow: hidden; border-radius: 10px; background: #f5f5f5; position: relative;">
+                <img src="Grinding.jpg" alt="PP Grinding" 
+                     style="width:100%; height: 315px; object-fit: cover; position: absolute; top: -7.5px; left: 0;">
+            </div>
+            <h3>PP Grinding</h3>
+            <p>Clean and processed PP grinding material ensuring consistency, durability, and reliable performance.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Why Choose Us</h2>
+    <ul>
+        <li>✔ Trusted Quality</li>
+        <li>✔ Competitive Rates</li>
+        <li>✔ Consistent Material Supply</li>
+        <li>✔ Timely Delivery</li>
+        <li>✔ Reliable Manufacturing Process</li>
+        <li>✔ Bulk Supply Capability</li>
+        <li>✔ Strong Customer Relationships</li>
+    </ul>
+</section>
+
+<section id="bulk">
+    <h2>Bulk Supply Inquiry</h2>
+    <p>If you want to place a bulk order or request a quotation, please fill out the form below:</p>
+    <form action="mailto:shreebalajipolymers.india@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="company" placeholder="Company Name / Industry" required>
+        <input type="text" name="phone" placeholder="Phone Number" required>
+        <textarea name="message" rows="5" placeholder="Your Message / Order Details" required></textarea>
+        <button type="submit">Send Inquiry</button>
+    </form>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+	 <p><strong>Name:</strong> Mr. Laxman Bansal | Mr. Bharat Jain</p>
+
+    <p><strong>Address:</strong> 47/2, Near NeelKhant Dharam Kanta, Kundli, Haryana - 131028</p>
+  <p><strong>Phone:</strong> +91 8588066688</p>
+<p style="padding-left: 55px;">+91 9810648972</p>
+    <p><strong>Email:</strong> shreebalajipolymers.india@gmail.com</p>
+</section>
+
+<a class="whatsapp" href="https://wa.me/919810648972" target="_blank">
+    Chat on WhatsApp
+</a>
+
+<footer>
+    <p>© 2026 Shree Balaji Polymers</p>
+</footer>
+
+</body>
+</html>
